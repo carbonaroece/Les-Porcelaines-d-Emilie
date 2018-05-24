@@ -471,7 +471,7 @@ a
     height: 400px;
     width:100%;
     
-	background: url('../images/Accueil/Banni%C3%A8re%20accueil.jpg');
+	background: url('images/Accueil/Banni%C3%A8re%20accueil.jpg');
 	background-size: 100% 400px;
 	background-repeat: no-repeat;
 	background-position: center center;    
@@ -479,12 +479,12 @@ a
 
 #banniere_accueil
 {
-    background: url('../images/Accueil/Banni%C3%A8re%20accueil.jpg');
+    background: url('images/Accueil/Banni%C3%A8re%20accueil.jpg');
 }
 
 #banniere_personnalisation
 {
-    background: url('../images/Accueil/Banni%C3%A8re%20personnalisation.jpg');
+    background: url('images/Accueil/Banni%C3%A8re%20personnalisation.jpg');
     
 }
 
