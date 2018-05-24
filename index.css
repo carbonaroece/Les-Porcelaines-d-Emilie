@@ -1,0 +1,619 @@
+/*---------------*/
+/* CODE COULEURS */
+/*---------------*/
+/*
+/* #78ffdb TURQUOISE CLAIR (fond images liens)
+/* #00aa83 VERT NORMAL (fond, titre zones images)
+/* #004535 VERT FONCE (titre zones images)
+/* #002c22 VERT TRÈS FONCÉ (nav hover)
+/*--------------------------------------------------
+
+
+/*------*/
+/* BASE */
+/*------*/
+
+html
+{
+    width: 100%;
+    margin: 0;
+}
+
+body
+{
+    background-color:#75ddd9;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    min-width: 320px;
+}
+
+h1
+{
+    text-align: center;
+    font-family: 'Varela Round', sans-serif;
+    color:#225250;
+    margin:0;
+    padding-top:15px;
+    padding-bottom: 15px;
+    font-size: 20px;;
+}
+
+a:hover
+{
+    text-decoration: none;
+}
+
+/*-----------------*/
+/*      BLOCS      */
+/*-----------------*/
+
+.block
+{
+    display: block;
+}
+
+.inlineblock
+{
+    display : inline-block;
+}
+
+.vertical
+{
+    vertical-align: top;
+}
+
+/* LARGEUR */
+
+.largeurpage
+{
+    width: 100%;
+}
+
+.autre
+{
+    width:450px;
+}
+
+.deuxtierspage
+{
+    width: 57.515823%;
+}
+
+.tierspage
+{
+    width: 38.291139%;
+}
+
+/* Hauteur */
+
+.petit
+{
+    height: auto;
+}
+
+.grand
+{
+    height: auto;
+}
+
+.tgrand
+{
+    height: auto;
+}
+
+/* Style */
+
+.cadre
+{
+    border-style: solid;
+    border-width: thin;
+}
+
+.plein
+{
+    background-color: #75ddd9;
+}
+
+.padding
+{
+    padding: 5px;
+}
+
+.right
+{
+    float: right;
+}
+
+/*----------*/
+/* COULEURS */
+/*----------*/
+
+.bleuvert
+{
+    background-color: #75ddd9;
+}
+
+
+.rouge
+{
+    background-color: red;
+}
+
+.vert
+{
+    background-color: #177923;
+}
+
+.bleu
+{
+    background-color: blue;
+}
+
+.vertclair
+{
+    background-color: #e3fff5;
+}
+
+.blanc
+{
+    background-color: white;
+}
+
+/* Texte */
+
+.texte_blanc
+{
+    color: white;
+}
+
+.textevertclair
+{
+    color: #40908d;
+}
+
+.center
+{
+    text-align: center;
+}
+
+.titre_bleu
+{
+    text-align: center;
+    color:aquamarine;
+    font-family: 'Varela Round', sans-serif;
+    padding-top: 20px;
+}
+
+/*------------*/
+/* TITRE PAGE */
+/*------------*/
+
+.titre_page
+{
+    padding-top: 50px;
+    height: 150px;
+}
+
+.titre_page h1
+{
+    padding-top: 30px;
+    color:WHITE;
+    font-size: 40px;
+}
+
+.titre_page_long h1
+{
+    font-size: 29px;
+}
+
+/*-----------------*/
+/* IMAGES ET LIENS */
+/*-----------------*/
+
+.imagelien
+{
+    display: inline-block;
+    background-color: #75ddd9;
+    /*margin-bottom: 4px;*/
+}
+
+.themes
+{
+    width: 33.3%; /* Taille vignette */
+}
+
+.categories
+{
+    width: 50%; /* Taille vignette */
+}
+
+.gallerie
+{
+    display: inline-block;
+    background-color: #75ddd9;
+    width: 25%;
+    vertical-align: middle;
+    z-index: 1;
+}
+
+.numero_photo
+{
+    width: 100%;
+/*    background-color: #75ddd9;*/
+    color: #225250;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.3vw;
+}
+
+/*
+.gallerie:hover
+{
+    opacity: 0.8;
+}
+*/
+
+.imagelien img
+{
+    transition-property: all;
+    transition-duration: 0.3s;
+    width: 100%;
+}
+
+/*
+.imagelien:hover img
+{
+    opacity: 0.8;
+}
+*/
+
+.padding
+{
+    padding: 0;
+    padding-top: 50px;
+}
+
+.zone_images
+{
+    display: block;
+    width: 100%;
+}
+
+.titre_zone_images
+{
+    display: block;
+    background-color: #40908d; /* vert foncé */
+    height: 50px;
+}
+
+/*------------*/
+/* NAVIGATION */
+/*------------*/
+
+#nav
+{
+    width: 100%;
+    height: 50px;
+    color:white;
+    background-color: #40908d; /* vert normal */
+    position: fixed;
+    margin: 0;
+    z-index: 2;
+}
+
+#nav a
+{
+    display: inline-block;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+    color: white;
+    padding-bottom: 3px;
+    padding-top: 17px;
+    padding-right: 3px;
+    padding-left: 3px;
+    margin-right: 20px;
+    text-decoration: none;
+    text-align:center;
+    transition: color 300ms;
+}
+
+#nav a:hover
+{
+    font-family: 'Varela Round', sans-serif;
+    color: #002c22; /* Vert très foncé */
+}
+
+a
+{
+    text-decoration: none !important;
+}
+
+.glyphicon-home
+{
+    padding-top: 13px;
+}
+
+
+#liens
+{
+    display: inline-block;
+    width: 900px;
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+#liens2
+{
+    display: inline-block;
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+    vertical-align: top;
+    margin-left: 40px;
+    font-size: 15px;
+}
+
+#bouton_nav
+{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    font-size: 15px;
+    padding: 0;
+    margin-top:15px;
+    float: right;
+    margin-right: 5px;
+    color:#75ddd9;
+    text-align: center;
+    cursor:pointer;
+    
+    
+}
+
+#bouton_nav:hover
+{
+    color: white;
+}
+
+.bouton
+{
+    display: inline-block;
+    width: 35%;
+    height: 25%;
+    border: 1px solid #75ddd9;
+    font-family: 'Raleway', sans-serif;
+    border-radius: 10px;
+    color:#75ddd9;
+    text-align: center;
+    padding-top: 0.9%;
+    cursor:pointer;
+    margin-top: 13%;
+    margin-left:60%;
+    transition: background-color 300ms;
+    font-size: 4vw;
+}
+
+.bouton:hover
+{
+    background-color: #75ddd9;
+    color: white;
+    cursor:pointer;
+}
+
+.bouton:active
+{
+    box-shadow: 1px 1px 20px 5px black;
+    box-shadow: 0px 0px 20px  black inset;
+    cursor:pointer;
+}
+
+.bouton-accueil
+{
+    padding-top: 10px;
+    padding-left: 30px;
+    transition: opacity 100ms;
+}
+
+.bouton-accueil:hover
+{
+    opacity: 0.2;
+}
+
+/*----------------*/
+/* NAVIGATION ALT */
+/*----------------*/
+
+#nav_alt, #nav_alt2
+{
+    display: none;
+    height:220px;
+    background-color: #40908d;
+    margin-top: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    opacity: 0.99;
+}
+
+#nav_alt2
+{
+    height:320px;
+}
+
+#nav_alt a, #nav_alt2 a
+{
+    display: block;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1em;
+    color: white;
+    text-decoration: none;
+    transition: color 300ms;
+}
+
+#nav_alt a:hover, #nav_alt2 a:hover
+{
+    color: #002C22;
+}
+
+/*---------*/
+/* BANNIERE */
+/*---------*/
+
+.banniere
+{
+    height: 400px;
+    width:100%;
+    
+	background: url('../images/Accueil/Banni%C3%A8re%20accueil.jpg');
+	background-size: 100% 400px;
+	background-repeat: no-repeat;
+	background-position: center center;    
+} 
+
+#banniere_accueil
+{
+    background: url('../images/Accueil/Banni%C3%A8re%20accueil.jpg');
+}
+
+#banniere_personnalisation
+{
+    background: url('../images/Accueil/Banni%C3%A8re%20personnalisation.jpg');
+    
+}
+
+/*
+/*
+/**/
+
+.carousel-indicators li
+{
+    border-color: #75ddd9;
+}
+
+.carousel-indicators li.active
+{
+    background-color: #75ddd9;
+}
+
+/*------------*/
+/* NAVIGATION */
+/*------------*/
+
+#titre_principal
+{
+    text-align:center;
+}
+    
+#titre_principal h1
+{
+    font-family: 'Varela Round', sans-serif;
+    font-size: 45px;
+    font-weight: normal;
+    color:white; /* gris clair */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+#titre_principal p
+{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    text-transform: uppercase;
+    color:#bebebe; /* gris clair */
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+/*------*/
+/* BLOC */
+/*------*/
+    
+#bloc
+{
+    padding-top: 50px;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    background-color: #2a2a2a;
+    text-align: center;
+}
+
+#bloc h1
+{
+    font-family: 'Varela Round', sans-serif;
+    text-align:center;
+    font-size:30px;
+    color: #00f3d3; /* bleu clair */
+}
+
+.photo
+{
+    display: inline-block;
+    height:370px;
+    width: 50%;
+    vertical-align: top;
+    margin-right: 5px; 
+}
+
+.commentaire
+{
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+    height:370px;
+    width: 45%;
+    vertical-align: top;
+    color: white;
+    margin-left: 5px;
+}
+
+
+
+/*--------*/
+/* FOOTER */
+/*--------*/
+
+#bas_page
+{
+    height: auto;
+    width:100%;
+    margin-left:auto;
+    margin-right:auto;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    text-align:center;
+    padding: 20px 30px;
+    color:#e3fff5; /* gris clair */
+    background-color: #252a29; /* vert */
+}
+
+#bas_page h1
+{
+    color:#75ddd9;
+}
+.copyright
+{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: monospace;
+    font-size: 15px;
+    background-color: #252a29; /* vert */
+}
+
+#auteur
+{
+    font-weight: bold;
+}
